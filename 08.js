@@ -17,3 +17,15 @@ const suma2 = numero => numero * 3;
 
 const resultado3 = suma2(4);
 console.log(resultado3);
+
+
+//Eliminar un objeto del array 
+// const nuevoTech = tecnologias.filter(function(tech){
+//     return tech === "React";// me trae solo react
+//   // return tech !== "React"; //me trae todo menos react  
+// })
+
+const tecnologias = ["Javascript","Python","React","Sql","C++"]
+
+const espTech = tecnologias.filter(tech => tech !== "React");
+console.log(espTech)
