@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: aquamarine;
+}
+
+.enlaces {
+    display: flex;
+    font-size: 2rem;
+    background-color: rgb(97, 97, 235);
+    justify-content: center;
+    margin-top: 20%;
+    justify-content: space-evenly;
+}
+
+.heading {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    background-color: blue;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}

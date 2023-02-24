@@ -1,4 +1,4 @@
-//tenarios
+//ternarios
 
 const saldo = 700;
 const gasto = 800;
